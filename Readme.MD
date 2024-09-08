@@ -23,7 +23,7 @@ Lets go through the details.
 According to the public data from Aarhus University and environment monitoring department we can state
 Danish air can be considered as clean without any limit presence of pollutants.
 
-![picture1](https://myoctocat.com/assets/images/base-octocat.svg)
+![picture1](/master/contamination_air.png)
 
 
 
