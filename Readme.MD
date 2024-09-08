@@ -1,4 +1,4 @@
-Processing of environmental data from miljoeportal.dk with data science approach using Python with Pandas library.
+**Processing of environmental data from miljoeportal.dk with data science approach using Python with Pandas library.**
 
 First what needs to be highlighted here, Danes are model ones, who all we have to follow example of them. A great 
 open data collection about environment condition for last 40 years. From chemistry of water to spices variety. 
@@ -50,7 +50,7 @@ Then, going further seeing in details about some interesting location we can obt
 Here has been noticed a fact, Roskilde slump had a presence of a big variety of harmful metals there. 
 Hg, Zn, Pb, As, Cd, Ni, Co, U, Cu
 
-![image](contamination_Bjergmarken I slam.png)
+![image](https://github.com/tech-science-club/datascience_emvironmental_research/blob/e3c237547aedebb8086a2ac8f70367957fee13d4/contamination_Bjergmarken%20I%20slam.png)
 
 Was decided to retrieve a historical data of it for the last 40 years from the portal and visualize it in plot view for 
 dangerous metal ions which were detected in sludge on the bottom. As it is visible, it still remains on that same level  
