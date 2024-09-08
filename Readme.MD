@@ -23,6 +23,14 @@ Finally, you can visualize the data graphically using plots.
 
 Lets go through the details.
 
+This Python script, utilizing the Pandas library, enables users to process datasets, extract data, and manipulate it as needed. 
+Our datasets were stored in Excel files with over 15 columns and thousands of rows. To study the environmental situation, 
+we analyzed the datasets, identified maximum values, and compared them to constants from environmental monitoring organizations.
+
+The script allows users to explore the entire dataset, print a list of detected compounds, 
+and identify the locations where samples were collected. Additionally, users can retrieve data for a specific location or compound.
+
+
 Danish Air Quality
 
 Based on public data from Aarhus University and the environmental monitoring department, 
