@@ -1,4 +1,4 @@
-#Processing of environmental data from miljoeportal.dk with data science approach using Python with Pandas library.
+**Processing of environmental data from miljoeportal.dk with data science approach using Python with Pandas library.
 
 First what needs to be highlighted here, Danes are model ones, who all we have to follow example of them. A great 
 open data collection about environment condition for last 40 years. From chemistry of water to spices variety. 
@@ -57,39 +57,39 @@ dangerous metal ions which were detected in sludge on the bottom. As it is visib
 
 ![image](contamination_Cadmium.png)
  
- [image](contamination_Chrome.png)
+ ![image](contamination_Chrome.png)
 
- [image](contamination_Pb.png)
+ ![image](contamination_Pb.png)
  
- [image](contamination_Hg.png)
+ ![image](contamination_Hg.png)
 
- [image](contamination_Nikkel.png)
+ ![image](contamination_Nikkel.png)
 
- [image](contamination_Kobber.png)
+ ![image](contamination_Kobber.png)
  
- [image](contamination_Zink.png)
+ ![image](contamination_Zink.png)
 
 By unknown reason, monitoring of upper water lay is not accessible nowadays. Last measured data are from 2009 year.
 
 ![image](contamination_Arsen_wastewater.png)
 
- [image](contamination_Nikkel_wastewater.png)
+ ![image](contamination_Nikkel_wastewater.png)
 
- [image](contamination_Kobber_wastewater.png)
+ ![image](contamination_Kobber_wastewater.png)
 
- [image](contamination_Zink_wastewater.png)
+ ![image](contamination_Zink_wastewater.png)
 
- [image](contamination_Uran_wastewater.png)
+ ![image](contamination_Uran_wastewater.png)
 
- [image](contamination_Kobolt_wastewater.png)
+ ![image](contamination_Kobolt_wastewater.png)
 
- [image](contamination_Selen_wastewater.png)
+ ![image](contamination_Selen_wastewater.png)
 
- [image](contamination_Chrom_wastewater.png)
+ ![image](contamination_Chrom_wastewater.png)
 
- [image](contamination_Bly_wastewater.png)
+ ![image](contamination_Bly_wastewater.png)
 
- [image](contamination_Kviksølv_wastewater.png)
+ ![image](contamination_Kviksølv_wastewater.png)
 
 It is not understandable, what does Uranium, is doing in danish sump near Roskilde
  
