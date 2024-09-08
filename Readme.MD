@@ -50,7 +50,7 @@ Then, going further seeing in details about some interesting location we can obt
 Here has been noticed a fact, Roskilde slump had a presence of a big variety of harmful metals there. 
 Hg, Zn, Pb, As, Cd, Ni, Co, U, Cu
 
-![image](...master/contamination_Bjergmarken I slam.png)
+![image](contamination_Bjergmarken I slam.png)
 
 Was decided to retrieve a historical data of it for the last 40 years from the portal and visualize it in plot view for 
 dangerous metal ions which were detected in sludge on the bottom. As it is visible, it still remains on that same level  
