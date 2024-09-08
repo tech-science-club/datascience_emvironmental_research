@@ -39,6 +39,9 @@ Underground Water
 The available data on underground water is limited. Excel files only contain 30 lines of data for the past month, 
 covering a few minerals and only five regions in Denmark. Data likely is in accesible scopes
 
+![image](https://github.com/tech-science-club/datascience_emvironmental_research/blob/68c661a475fe835238bddea75c882b686247b877/underground_water.png)
+
+
 Wastewater
 
 The wastewater data revealed a wider range of pollutants than expected, including heavy metal pollutants 
