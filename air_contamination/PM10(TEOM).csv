@@ -1,0 +1,65 @@
+Luftforureningsdata: PM10(TEOM)
+Enhed: µg/m³
+År;Station;St.type;Middelværdi;36. højeste døgnværdi
+2022;København/1103;Gade;25.44;38.76
+2022;København/1259;Bybaggrund;0.00;0.00
+2022;Lille Valby/2090;Regional;0.00;0.00
+2022;Risø;Regional;10.53;17.55
+2022;Risø/Lille Valby;Regional;10.53;17.55
+2021;København/1103;Gade;25.50;38.16
+2021;København/1259;Bybaggrund;0.00;0.00
+2021;Lille Valby/2090;Regional;0.00;0.00
+2021;Risø;Regional;11.10;18.16
+2021;Risø/Lille Valby;Regional;11.10;18.16
+2020;København/1103;Gade;23.16;33.59
+2020;Risø;Regional;12.35;19.83
+2020;Risø/Lille Valby;Regional;12.35;19.83
+2019;København/1103;Gade;25.79;44.66
+2019;Risø;Regional;13.22;22.81
+2019;Risø/Lille Valby;Regional;13.22;22.81
+2018;København/1103;Gade;31.31;53.48
+2018;København/1259;Bybaggrund;0.00;0.00
+2018;Lille Valby/2090;Regional;0.00;0.00
+2018;Risø;Regional;13.72;23.69
+2018;Risø/Lille Valby;Regional;13.72;23.69
+2017;København/1103;Gade;26.27;45.63
+2017;Risø;Regional;11.68;18.54
+2017;Risø/Lille Valby;Regional;11.68;18.54
+2016;København/1103;Gade;30.81;51.99
+2016;Risø;Regional;11.74;18.65
+2016;Risø/Lille Valby;Regional;11.74;18.65
+2015;København/1103;Gade;29.21;47.13
+2015;Risø;Regional;14.29;21.58
+2015;Risø/Lille Valby;Regional;14.29;21.58
+2014;København/1103;Gade;28.65;42.20
+2014;Risø;Regional;15.19;20.53
+2014;Risø/Lille Valby;Regional;15.19;20.53
+2013;København/1103;Gade;28.66;48.33
+2013;Risø;Regional;12.94;21.95
+2013;Risø/Lille Valby;Regional;12.94;21.95
+2012;København/1103;Gade;30.45;46.81
+2012;Risø;Regional;12.52;17.39
+2012;Risø/Lille Valby;Regional;12.52;17.39
+2011;København/1103;Gade;28.94;24.02
+2011;København/1259;Bybaggrund;11.56;17.60
+2011;Risø;Regional;15.27;11.41
+2011;Risø/Lille Valby;Regional;15.27;11.41
+2010;København/1103;Gade;25.21;23.69
+2010;København/1259;Bybaggrund;13.86;11.07
+2010;Lille Valby/2090;Regional;-;-
+2010;Risø;Regional;-;-
+2010;Risø/Lille Valby;Regional;-;-
+2009;København/1103;Gade;-;-
+2009;København/1259;Bybaggrund;-;-
+2008;København/1103;Gade;25.40;-
+2008;København/1259;Bybaggrund;-;-
+2007;København/1103;Gade;-;-
+2007;København/1259;Bybaggrund;14.70;-
+2006;København/1103;Gade;33.20;-
+2006;København/1259;Bybaggrund;-;-
+2005;København/1103;Gade;33.50;48.60
+2005;København/1257;Gade;23.70;35.50
+2005;København/1259;Bybaggrund;17.20;25.00
+2004;København/1103;Gade;31.60;45.40
+2004;København/1257;Gade;23.30;35.30
+2004;København/1259;Bybaggrund;15.80;23.10

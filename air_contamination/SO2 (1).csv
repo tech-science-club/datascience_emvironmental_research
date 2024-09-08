@@ -1,0 +1,128 @@
+Luftforureningsdata: SO2
+Enhed: µg/m³
+År;Station;St.type;Middelværdi;Middelværdi, vinter;25. højeste;4. højeste døgnværdi
+2022;København/1103;Gade;0.76;0.58;3.23;2.26
+2022;Aalborg/8151;Gade;0.58;0.62;7.12;3.84
+2021;København/1103;Gade;0.36;0.33;3.49;2.37
+2021;Aalborg/8151;Gade;0.65;0.50;11.43;4.51
+2020;København/1103;Gade;1.17;1.24;5.69;4.30
+2020;Aalborg/8151;Gade;0.87;0.99;9.08;5.02
+2019;København/1103;Gade;0.65;0.83;4.96;3.33
+2018;København/1103;Gade;1.01;1.26;6.81;5.10
+2018;Aalborg/8151;Gade;0.00;0.00;0.00;0.00
+2017;København/1103;Gade;1.37;1.64;8.65;5.74
+2016;København/1103;Gade;1.81;1.99;10.00;7.32
+2015;København/1103;Gade;2.10;2.39;10.95;8.30
+2014;København/1103;Gade;2.33;2.61;12.42;9.30
+2014;Aalborg/8151;Gade;2.02;1.88;7.54;5.60
+2013;København/1103;Gade;2.34;2.29;13.57;9.51
+2013;Aalborg/8151;Gade;1.79;2.04;11.19;8.22
+2012;København/1103;Gade;1.54;1.82;12.06;6.93
+2012;Aalborg/8151;Gade;1.57;1.70;12.00;5.41
+2011;København/1103;Gade;2.91;2.59;13.90;8.79
+2011;Aalborg/8151;Gade;1.63;2.18;12.01;5.59
+2010;København/1103;Gade;4.89;4.29;22.31;13.78
+2010;Aalborg/8151;Gade;2.64;3.31;14.77;8.05
+2009;København/1103;Gade;3.40;3.00;20.30;9.40
+2009;Aalborg/8151;Gade;2.80;3.10;15.30;6.90
+2008;København/1103;Gade;2.40;2.50;13.90;6.40
+2008;Aalborg/8151;Gade;3.20;3.20;14.20;7.40
+2007;København/1103;Gade;3.30;4.00;18.70;8.90
+2007;Aalborg/8151;Gade;2.60;3.10;16.00;7.50
+2006;København/1103;Gade;2.40;2.90;17.40;6.00
+2006;Aalborg/8151;Gade;2.90;3.50;17.50;6.70
+2005;København/1103;Gade;4.20;3.70;31.70;14.60
+2005;Aalborg/8151;Gade;2.80;2.80;18.50;8.80
+2004;København/1103;Gade;3.80;4.40;26.80;14.00
+2004;Aalborg/8151;Gade;2.60;2.60;17.10;7.80
+2003;København/1103;Gade;5.10;6.20;43.30;17.40
+2003;Aalborg/8151;Gade;4.10;4.70;35.90;14.20
+2002;København/1103;Gade;3.80;3.80;23.20;9.30
+2002;Aalborg/8151;Gade;3.80;3.90;20.50;9.40
+2001;København/1103;Gade;2.80;2.50;25.70;9.50
+2001;Aalborg/8151;Gade;3.10;3.90;23.10;11.10
+2000;København/1257;Gade;3.30;3.30;-;-
+2000;Odense/9154;Gade;1.30;1.50;-;-
+2000;Odense/9155;Gade;1.30;1.50;-;-
+2000;Lille Valby/2090;Regional;1.40;1.50;-;-
+2000;Risø/Lille Valby;Regional;1.40;1.50;-;-
+1999;København/1257;Gade;4.00;4.40;-;-
+1999;Odense/9154;Gade;1.70;1.90;-;-
+1999;Odense/9155;Gade;1.70;1.90;-;-
+1999;Aalborg/8151;Gade;1.80;1.80;-;-
+1999;Lille Valby/2090;Regional;1.50;1.60;-;-
+1999;Risø/Lille Valby;Regional;1.50;1.60;-;-
+1998;København/1257;Gade;4.40;-;-;-
+1998;Odense/9154;Gade;2.10;-;-;-
+1998;Odense/9155;Gade;2.20;-;-;-
+1998;Aalborg/8151;Gade;2.70;-;-;-
+1998;Lille Valby/2090;Regional;1.50;-;-;-
+1998;Risø/Lille Valby;Regional;1.50;-;-;-
+1997;København/1257;Gade;4.60;-;-;-
+1997;Odense/9154;Gade;2.50;-;-;-
+1997;Odense/9155;Gade;2.60;-;-;-
+1997;Aalborg/8151;Gade;2.70;-;-;-
+1997;Lille Valby/2090;Regional;1.50;-;-;-
+1997;Risø/Lille Valby;Regional;1.50;-;-;-
+1996;København/1257;Gade;7.10;-;-;-
+1996;Odense/9154;Gade;5.10;-;-;-
+1996;Odense/9155;Gade;4.90;-;-;-
+1996;Aalborg/8151;Gade;5.00;-;-;-
+1996;Lille Valby/2090;Regional;3.70;-;-;-
+1996;Risø/Lille Valby;Regional;3.70;-;-;-
+1995;København/1257;Gade;9.00;-;-;-
+1995;Odense/9154;Gade;4.20;-;-;-
+1995;Odense/9155;Gade;3.80;-;-;-
+1995;Aalborg/8151;Gade;4.00;-;-;-
+1995;Lille Valby/2090;Regional;3.10;-;-;-
+1995;Risø/Lille Valby;Regional;3.10;-;-;-
+1994;København/1257;Gade;8.60;-;-;-
+1994;Odense/9154;Gade;4.30;-;-;-
+1994;Odense/9155;Gade;4.30;-;-;-
+1994;Aalborg/8151;Gade;4.60;-;-;-
+1994;Lille Valby/2090;Regional;3.40;-;-;-
+1994;Risø/Lille Valby;Regional;3.40;-;-;-
+1993;København/1257;Gade;11.50;-;-;-
+1993;Odense/9154;Gade;6.40;-;-;-
+1993;Odense/9155;Gade;6.50;-;-;-
+1993;Aalborg/8151;Gade;6.60;-;-;-
+1993;Lille Valby/2090;Regional;4.80;-;-;-
+1993;Risø/Lille Valby;Regional;4.80;-;-;-
+1992;København/1257;Gade;14.20;-;-;-
+1992;Odense/9154;Gade;6.90;-;-;-
+1992;Odense/9155;Gade;6.90;-;-;-
+1992;Aalborg/8151;Gade;7.40;-;-;-
+1992;Lille Valby/2090;Regional;5.10;-;-;-
+1992;Risø/Lille Valby;Regional;5.10;-;-;-
+1991;København/1257;Gade;18.20;-;-;-
+1991;Odense/9154;Gade;9.90;-;-;-
+1991;Odense/9155;Gade;11.00;-;-;-
+1991;Aalborg/8151;Gade;12.00;-;-;-
+1991;Lille Valby/2090;Regional;6.20;-;-;-
+1991;Risø/Lille Valby;Regional;6.20;-;-;-
+1990;København/1257;Gade;19.40;-;-;-
+1990;Odense/9154;Gade;9.70;-;-;-
+1990;Odense/9155;Gade;9.10;-;-;-
+1990;Aalborg/8151;Gade;11.60;-;-;-
+1989;København/1257;Gade;21.80;-;-;-
+1989;Odense/9154;Gade;10.90;-;-;-
+1989;Odense/9155;Gade;11.70;-;-;-
+1989;Aalborg/8151;Gade;11.50;-;-;-
+1988;København/1257;Gade;23.30;-;-;-
+1988;Odense/9154;Gade;11.70;-;-;-
+1988;Odense/9155;Gade;12.40;-;-;-
+1988;Aalborg/8151;Gade;14.00;-;-;-
+1987;Odense/9154;Gade;12.30;-;-;-
+1987;Aalborg/8151;Gade;14.50;-;-;-
+1986;København/1103;Gade;28.10;-;-;-
+1986;Odense/9154;Gade;14.80;-;-;-
+1986;Aalborg/8151;Gade;17.30;-;-;-
+1985;København/1103;Gade;37.70;-;-;-
+1985;Odense/9154;Gade;19.30;-;-;-
+1985;Aalborg/8151;Gade;22.40;-;-;-
+1984;København/1103;Gade;40.30;-;-;-
+1984;Odense/9154;Gade;24.90;-;-;-
+1984;Aalborg/8151;Gade;25.20;-;-;-
+1983;København/1103;Gade;36.70;-;-;-
+1983;Odense/9154;Gade;23.70;-;-;-
+1983;Aalborg/8151;Gade;20.50;-;-;-

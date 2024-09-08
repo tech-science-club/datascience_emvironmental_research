@@ -1,0 +1,372 @@
+Air quality monitoring: NO;;;
+Unit: µg/m³;;;
+Year;Station;St.type;Average NO
+2022;Copenhagen/1103;Street;14
+2022;Copenhagen/1257;Street;7
+2022;Odense/9155;Street;0
+2022;Odense/9156;Street;6
+2022;Aalborg/8151;Street;10
+2022;Århus/6153;Street;10
+2022;Hvidovre/2650;Urban backgr.;0
+2022;Hvidovre/2651;Urban backgr.;2
+2022;Copenhagen/1259;Urban backgr.;1
+2022;Odense/9159;Urban backgr.;1
+2022;Aalborg/8159;Urban backgr.;2
+2022;Århus/6159;Urban backgr.;0
+2022;Aarhus/6160;Urban backgr.;1
+2022;Anholt/6001;regional;0
+2022;Keldsnor/9055;regional;1
+2022;Risø;regional;0
+2022;Risø/Lille Valby;regional;0
+2022;Ulborg/7060;regional;0
+2021;Copenhagen/1103;Street;17
+2021;Copenhagen/1257;Street;10
+2021;Odense/9155;Street;0
+2021;Odense/9156;Street;5
+2021;Aalborg/8151;Street;16
+2021;Århus/6153;Street;12
+2021;Hvidovre/2650;Urban backgr.;2
+2021;Copenhagen/1259;Urban backgr.;1
+2021;Odense/9159;Urban backgr.;1
+2021;Aalborg/8159;Urban backgr.;1
+2021;Århus/6159;Urban backgr.;0
+2021;Aarhus/6160;Urban backgr.;1
+2021;Anholt/6001;regional;0
+2021;Keldsnor/9055;regional;0
+2021;Risø;regional;0
+2021;Risø/Lille Valby;regional;0
+2021;Ulborg/7060;regional;0
+2020;Copenhagen/1103;Street;16
+2020;Copenhagen/1257;Street;11
+2020;Odense/9156;Street;5
+2020;Aalborg/8151;Street;13
+2020;Århus/6153;Street;11
+2020;Hvidovre/2650;Urban backgr.;1
+2020;Copenhagen/1259;Urban backgr.;1
+2020;Odense/9159;Urban backgr.;1
+2020;Aalborg/8159;Urban backgr.;1
+2020;Aarhus/6160;Urban backgr.;1
+2020;Anholt/6001;regional;0
+2020;Keldsnor/9055;regional;1
+2020;Risø;regional;0
+2020;Risø/Lille Valby;regional;0
+2020;Ulborg/7060;regional;0
+2019;Copenhagen/1103;Street;23
+2019;Copenhagen/1257;Street;14
+2019;Odense/9156;Street;6
+2019;Århus/6153;Street;14
+2019;Hvidovre/2650;Urban backgr.;1
+2019;Copenhagen/1259;Urban backgr.;1
+2019;Odense/9159;Urban backgr.;1
+2019;Aalborg/8159;Urban backgr.;2
+2019;Aarhus/6160;Urban backgr.;2
+2019;Anholt/6001;regional;0
+2019;Keldsnor/9055;regional;1
+2019;Risø;regional;0
+2019;Risø/Lille Valby;regional;0
+2019;Ulborg/7060;regional;0
+2018;Copenhagen/1103;Street;29
+2018;Copenhagen/1257;Street;17
+2018;Odense/9155;Street;0
+2018;Odense/9156;Street;8
+2018;Aalborg/8151;Street;0
+2018;Århus/6153;Street;16
+2018;Hvidovre/2650;Urban backgr.;2
+2018;Copenhagen/1259;Urban backgr.;2
+2018;Odense/9159;Urban backgr.;1
+2018;Aalborg/8159;Urban backgr.;2
+2018;Århus/6159;Urban backgr.;0
+2018;Aarhus/6160;Urban backgr.;2
+2018;Anholt/6001;regional;0
+2018;Keldsnor/9055;regional;1
+2018;Risø;regional;1
+2018;Risø/Lille Valby;regional;1
+2018;Ulborg/7060;regional;0
+2017;Copenhagen/1103;Street;32
+2017;Copenhagen/1257;Street;18
+2017;Odense/9156;Street;11
+2017;Århus/6153;Street;21
+2017;Hvidovre/2650;Urban backgr.;3
+2017;Copenhagen/1259;Urban backgr.;2
+2017;Odense/9159;Urban backgr.;2
+2017;Aalborg/8159;Urban backgr.;3
+2017;Aarhus/6160;Urban backgr.;3
+2017;Keldsnor/9055;regional;1
+2017;Risø;regional;1
+2017;Risø/Lille Valby;regional;1
+2016;Copenhagen/1103;Street;45
+2016;Copenhagen/1257;Street;24
+2016;Odense/9156;Street;13
+2016;Århus/6153;Street;23
+2016;Hvidovre/2650;Urban backgr.;3
+2016;Copenhagen/1259;Urban backgr.;2
+2016;Odense/9159;Urban backgr.;2
+2016;Aalborg/8159;Urban backgr.;3
+2016;Aarhus/6160;Urban backgr.;3
+2016;Keldsnor/9055;regional;1
+2016;Risø;regional;1
+2016;Risø/Lille Valby;regional;1
+2015;Copenhagen/1103;Street;48
+2015;Copenhagen/1257;Street;25
+2015;Odense/9155;Street;7
+2015;Århus/6153;Street;23
+2015;Hvidovre/2650;Urban backgr.;3
+2015;Copenhagen/1259;Urban backgr.;2
+2015;Odense/9159;Urban backgr.;2
+2015;Aalborg/8159;Urban backgr.;3
+2015;Aarhus/6160;Urban backgr.;3
+2015;Keldsnor/9055;regional;1
+2015;Risø;regional;1
+2015;Risø/Lille Valby;regional;1
+2014;Copenhagen/1103;Street;50
+2014;Copenhagen/1257;Street;29
+2014;Odense/9155;Street;15
+2014;Aalborg/8151;Street;32
+2014;Århus/6153;Street;28
+2014;Copenhagen/1259;Urban backgr.;3
+2014;Odense/9159;Urban backgr.;3
+2014;Aalborg/8159;Urban backgr.;3
+2014;Århus/6159;Urban backgr.;4
+2014;Aarhus/6160;Urban backgr.;3
+2014;Keldsnor/9055;regional;1
+2014;Risø;regional;1
+2014;Risø/Lille Valby;regional;1
+2013;Copenhagen/1103;Street;55
+2013;Copenhagen/1257;Street;31
+2013;Odense/9155;Street;25
+2013;Aalborg/8151;Street;39
+2013;Århus/6153;Street;29
+2013;Copenhagen/1259;Urban backgr.;3
+2013;Odense/9159;Urban backgr.;3
+2013;Aalborg/8159;Urban backgr.;4
+2013;Århus/6159;Urban backgr.;6
+2013;Keldsnor/9055;regional;1
+2013;Risø;regional;1
+2013;Risø/Lille Valby;regional;1
+2012;Copenhagen/1103;Street;59
+2012;Copenhagen/1257;Street;30
+2012;Odense/9155;Street;22
+2012;Aalborg/8151;Street;37
+2012;Århus/6153;Street;28
+2012;Copenhagen/1259;Urban backgr.;2
+2012;Odense/9159;Urban backgr.;3
+2012;Aalborg/8159;Urban backgr.;4
+2012;Århus/6159;Urban backgr.;4
+2012;Keldsnor/9055;regional;1
+2012;Risø;regional;1
+2012;Risø/Lille Valby;regional;1
+2011;Copenhagen/1103;Street;53
+2011;Copenhagen/1257;Street;31
+2011;Odense/9155;Street;19
+2011;Aalborg/8151;Street;32
+2011;Århus/6153;Street;29
+2011;Copenhagen/1259;Urban backgr.;3
+2011;Odense/9159;Urban backgr.;3
+2011;Aalborg/8159;Urban backgr.;3
+2011;Århus/6159;Urban backgr.;6
+2011;Keldsnor/9055;regional;1
+2011;Risø;regional;1
+2011;Risø/Lille Valby;regional;1
+2010;Copenhagen/1103;Street;51
+2010;Copenhagen/1257;Street;30
+2010;Odense/9155;Street;29
+2010;Aalborg/8151;Street;42
+2010;Århus/6153;Street;31
+2010;Copenhagen/1259;Urban backgr.;2
+2010;Odense/9159;Urban backgr.;4
+2010;Aalborg/8159;Urban backgr.;5
+2010;Århus/6159;Urban backgr.;9
+2010;Keldsnor/9055;regional;1
+2010;Lille Valby/2090;regional;1
+2010;Risø;regional;1
+2010;Risø/Lille Valby;regional;1
+2009;Copenhagen/1103;Street;37
+2009;Copenhagen/1257;Street;31
+2009;Odense/9155;Street;24
+2009;Aalborg/8151;Street;46
+2009;Århus/6153;Street;32
+2009;Copenhagen/1259;Urban backgr.;3
+2009;Odense/9159;Urban backgr.;3
+2009;Aalborg/8159;Urban backgr.;5
+2009;Århus/6159;Urban backgr.;5
+2009;Keldsnor/9055;regional;1
+2009;Lille Valby/2090;regional;1
+2009;Risø/Lille Valby;regional;1
+2008;Copenhagen/1103;Street;39
+2008;Copenhagen/1257;Street;33
+2008;Odense/9155;Street;24
+2008;Aalborg/8151;Street;47
+2008;Århus/6153;Street;31
+2008;Copenhagen/1259;Urban backgr.;3
+2008;Odense/9159;Urban backgr.;4
+2008;Aalborg/8159;Urban backgr.;4
+2008;Århus/6159;Urban backgr.;5
+2008;Keldsnor/9055;regional;1
+2008;Lille Valby/2090;regional;1
+2008;Risø/Lille Valby;regional;1
+2007;Copenhagen/1103;Street;41
+2007;Copenhagen/1257;Street;30
+2007;Odense/9155;Street;24
+2007;Aalborg/8151;Street;40
+2007;Århus/6153;Street;33
+2007;Copenhagen/1259;Urban backgr.;4
+2007;Odense/9159;Urban backgr.;4
+2007;Aalborg/8159;Urban backgr.;5
+2007;Århus/6159;Urban backgr.;5
+2007;Keldsnor/9055;regional;1
+2007;Lille Valby/2090;regional;1
+2007;Risø/Lille Valby;regional;1
+2006;Copenhagen/1103;Street;42
+2006;Copenhagen/1257;Street;40
+2006;Odense/9155;Street;27
+2006;Aalborg/8151;Street;47
+2006;Århus/6153;Street;40
+2006;Copenhagen/1259;Urban backgr.;4
+2006;Odense/9159;Urban backgr.;3
+2006;Aalborg/8159;Urban backgr.;6
+2006;Århus/6159;Urban backgr.;5
+2006;Keldsnor/9055;regional;1
+2006;Lille Valby/2090;regional;1
+2006;Risø/Lille Valby;regional;1
+2005;Copenhagen/1103;Street;51
+2005;Copenhagen/1257;Street;40
+2005;Odense/9155;Street;30
+2005;Aalborg/8151;Street;46
+2005;Århus/6153;Street;39
+2005;Copenhagen/1259;Urban backgr.;4
+2005;Odense/9159;Urban backgr.;5
+2005;Aalborg/8159;Urban backgr.;7
+2005;Århus/6159;Urban backgr.;7
+2005;Keldsnor/9055;regional;1
+2005;Lille Valby/2090;regional;2
+2005;Risø/Lille Valby;regional;2
+2004;Copenhagen/1103;Street;57
+2004;Copenhagen/1257;Street;43
+2004;Odense/9155;Street;30
+2004;Aalborg/8151;Street;43
+2004;Århus/6153;Street;36
+2004;Copenhagen/1259;Urban backgr.;4
+2004;Odense/9159;Urban backgr.;5
+2004;Aalborg/8159;Urban backgr.;-
+2004;Århus/6159;Urban backgr.;7
+2004;Keldsnor/9055;regional;1
+2004;Lille Valby/2090;regional;2
+2004;Risø/Lille Valby;regional;2
+2003;Copenhagen/1103;Street;63
+2003;Copenhagen/1257;Street;45
+2003;Odense/9155;Street;34
+2003;Aalborg/8151;Street;49
+2003;Århus/6153;Street;42
+2003;Copenhagen/1259;Urban backgr.;4
+2003;Odense/9159;Urban backgr.;6
+2003;Aalborg/8159;Urban backgr.;7
+2003;Århus/6159;Urban backgr.;12
+2003;Keldsnor/9055;regional;1
+2003;Lille Valby/2090;regional;2
+2003;Risø/Lille Valby;regional;2
+2002;Copenhagen/1103;Street;76
+2002;Copenhagen/1257;Street;45
+2002;Odense/9155;Street;33
+2002;Aalborg/8151;Street;52
+2002;Århus/6153;Street;40
+2002;Copenhagen/1259;Urban backgr.;4
+2002;Odense/9159;Urban backgr.;4
+2002;Aalborg/8159;Urban backgr.;6
+2002;Århus/6159;Urban backgr.;9
+2002;Keldsnor/9055;regional;1
+2002;Lille Valby/2090;regional;2
+2002;Risø/Lille Valby;regional;2
+2001;Copenhagen/1103;Street;70
+2001;Copenhagen/1257;Street;39
+2001;Odense/9155;Street;30
+2001;Aalborg/8151;Street;48
+2001;Århus/6153;Street;46
+2001;Copenhagen/1259;Urban backgr.;4
+2001;Odense/9159;Urban backgr.;5
+2001;Aalborg/8159;Urban backgr.;7
+2001;Århus/6159;Urban backgr.;-
+2001;Keldsnor/9055;regional;1
+2001;Lille Valby/2090;regional;2
+2001;Risø/Lille Valby;regional;2
+2000;Copenhagen/1257;Street;46
+2000;Odense/9155;Street;27
+2000;Aalborg/8151;Street;52
+2000;Copenhagen/1259;Urban backgr.;4
+2000;Odense/9159;Urban backgr.;4
+2000;Aalborg/8159;Urban backgr.;6
+2000;Keldsnor/9055;regional;2
+2000;Lille Valby/2090;regional;2
+2000;Risø/Lille Valby;regional;2
+1999;Copenhagen/1257;Street;50
+1999;Odense/9155;Street;34
+1999;Aalborg/8151;Street;61
+1999;Copenhagen/1259;Urban backgr.;5
+1999;Odense/9159;Urban backgr.;6
+1999;Aalborg/8159;Urban backgr.;7
+1999;Keldsnor/9055;regional;1
+1999;Lille Valby/2090;regional;2
+1999;Risø/Lille Valby;regional;2
+1998;Copenhagen/1257;Street;53
+1998;Odense/9155;Street;41
+1998;Aalborg/8151;Street;64
+1998;Copenhagen/1259;Urban backgr.;5
+1998;Odense/9159;Urban backgr.;6
+1998;Aalborg/8159;Urban backgr.;7
+1998;Keldsnor/9055;regional;1
+1998;Lille Valby/2090;regional;2
+1998;Risø/Lille Valby;regional;2
+1997;Copenhagen/1257;Street;60
+1997;Odense/9155;Street;48
+1997;Aalborg/8151;Street;78
+1997;Copenhagen/1259;Urban backgr.;7
+1997;Odense/9159;Urban backgr.;8
+1997;Aalborg/8159;Urban backgr.;8
+1997;Keldsnor/9055;regional;2
+1997;Lille Valby/2090;regional;3
+1997;Risø/Lille Valby;regional;3
+1996;Copenhagen/1257;Street;72
+1996;Odense/9155;Street;54
+1996;Aalborg/8151;Street;69
+1996;Copenhagen/1259;Urban backgr.;6
+1996;Keldsnor/9055;regional;2
+1996;Lille Valby/2090;regional;2
+1996;Risø/Lille Valby;regional;2
+1995;Copenhagen/1257;Street;73
+1995;Odense/9155;Street;54
+1995;Aalborg/8151;Street;70
+1995;Copenhagen/1259;Urban backgr.;7
+1995;Keldsnor/9055;regional;1
+1995;Lille Valby/2090;regional;3
+1995;Risø/Lille Valby;regional;3
+1994;Copenhagen/1257;Street;76
+1994;Odense/9155;Street;60
+1994;Aalborg/8151;Street;88
+1994;Lille Valby/2090;regional;2
+1994;Risø/Lille Valby;regional;2
+1993;Copenhagen/1257;Street;85
+1993;Odense/9155;Street;74
+1993;Aalborg/8151;Street;94
+1993;Lille Valby/2090;regional;4
+1993;Risø/Lille Valby;regional;4
+1992;Copenhagen/1257;Street;107
+1992;Odense/9155;Street;68
+1992;Aalborg/8151;Street;99
+1992;Lille Valby/2090;regional;4
+1992;Risø/Lille Valby;regional;4
+1991;Copenhagen/1257;Street;123
+1991;Odense/9155;Street;74
+1991;Aalborg/8151;Street;100
+1990;Copenhagen/1257;Street;114
+1990;Odense/9155;Street;60
+1990;Aalborg/8151;Street;100
+1989;Copenhagen/1257;Street;121
+1989;Odense/9155;Street;68
+1989;Aalborg/8151;Street;99
+1988;Copenhagen/1257;Street;118
+1988;Odense/9155;Street;67
+1988;Aalborg/8151;Street;89
+1987;Aalborg/8151;Street;94
+1986;Aalborg/8151;Street;95
+1985;Aalborg/8151;Street;111
+1984;Aalborg/8151;Street;97
+1983;Aalborg/8151;Street;87

@@ -1,0 +1,219 @@
+Luftforureningsdata: As(PM10)
+Enhed: ng/m³
+År;Station;St.type;Middelværdi
+2022;København/1103;Gade;0.48
+2022;Odense/9155;Gade;0.00
+2022;Århus/6153;Gade;0.36
+2022;København/1259;Bybaggrund;0.35
+2022;Keldsnor/9055;Regional;0.00
+2022;Risø;Regional;0.00
+2022;Risø/Lille Valby;Regional;0.00
+2021;København/1103;Gade;0.47
+2021;Odense/9155;Gade;0.00
+2021;Århus/6153;Gade;0.37
+2021;København/1259;Bybaggrund;0.33
+2021;Keldsnor/9055;Regional;0.00
+2021;Risø;Regional;0.33
+2021;Risø/Lille Valby;Regional;0.33
+2020;København/1103;Gade;0.44
+2020;Århus/6153;Gade;0.42
+2020;København/1259;Bybaggrund;0.35
+2020;Risø;Regional;0.35
+2020;Risø/Lille Valby;Regional;0.35
+2019;København/1103;Gade;0.53
+2019;Århus/6153;Gade;0.43
+2019;København/1259;Bybaggrund;0.38
+2019;Risø;Regional;0.36
+2019;Risø/Lille Valby;Regional;0.36
+2018;København/1103;Gade;0.65
+2018;Odense/9155;Gade;0.00
+2018;Århus/6153;Gade;0.46
+2018;København/1259;Bybaggrund;0.47
+2018;Keldsnor/9055;Regional;0.00
+2018;Risø;Regional;0.41
+2018;Risø/Lille Valby;Regional;0.41
+2017;København/1103;Gade;0.85
+2017;Århus/6153;Gade;0.49
+2017;København/1259;Bybaggrund;0.47
+2017;Risø;Regional;0.39
+2017;Risø/Lille Valby;Regional;0.39
+2016;København/1103;Gade;0.64
+2016;Århus/6153;Gade;0.44
+2016;København/1259;Bybaggrund;0.54
+2016;Risø;Regional;0.36
+2016;Risø/Lille Valby;Regional;0.36
+2015;København/1103;Gade;0.88
+2015;Århus/6153;Gade;0.52
+2015;København/1259;Bybaggrund;0.52
+2015;Risø;Regional;0.56
+2015;Risø/Lille Valby;Regional;0.56
+2014;København/1103;Gade;1.08
+2014;Odense/9155;Gade;0.91
+2014;Århus/6153;Gade;1.29
+2014;København/1259;Bybaggrund;0.76
+2014;Risø;Regional;0.73
+2014;Risø/Lille Valby;Regional;0.73
+2013;København/1103;Gade;0.76
+2013;Odense/9155;Gade;0.71
+2013;Århus/6153;Gade;0.59
+2013;København/1259;Bybaggrund;0.55
+2013;Risø;Regional;0.54
+2013;Risø/Lille Valby;Regional;0.54
+2012;København/1103;Gade;0.73
+2012;Odense/9155;Gade;0.77
+2012;Århus/6153;Gade;0.65
+2012;København/1259;Bybaggrund;0.60
+2012;Risø;Regional;0.55
+2012;Risø/Lille Valby;Regional;0.55
+2011;København/1103;Gade;0.94
+2011;Odense/9155;Gade;1.11
+2011;Århus/6153;Gade;0.69
+2011;København/1259;Bybaggrund;0.75
+2011;Risø;Regional;0.56
+2011;Risø/Lille Valby;Regional;0.56
+2010;København/1103;Gade;0.74
+2010;Odense/9155;Gade;0.77
+2010;Århus/6153;Gade;0.59
+2010;København/1259;Bybaggrund;0.58
+2010;Risø;Regional;0.63
+2010;Risø/Lille Valby;Regional;0.63
+2009;København/1103;Gade;0.57
+2009;Odense/9155;Gade;0.00
+2009;Århus/6153;Gade;0.52
+2009;København/1259;Bybaggrund;0.38
+2009;Risø;Regional;0.00
+2009;Risø/Lille Valby;Regional;0.54
+2008;København/1103;Gade;0.61
+2008;København/1257;Gade;0.50
+2008;Århus/6153;Gade;0.51
+2008;København/1259;Bybaggrund;0.43
+2008;Lille Valby/2090;Regional;0.49
+2008;Risø/Lille Valby;Regional;0.49
+2007;København/1103;Gade;0.59
+2007;København/1257;Gade;0.53
+2007;Århus/6153;Gade;0.56
+2007;København/1259;Bybaggrund;0.44
+2007;Århus/6159;Bybaggrund;0.49
+2007;Lille Valby/2090;Regional;0.51
+2007;Risø/Lille Valby;Regional;0.51
+2006;København/1103;Gade;0.73
+2006;København/1257;Gade;0.68
+2006;Odense/9155;Gade;0.92
+2006;Aalborg/8151;Gade;0.62
+2006;Århus/6153;Gade;0.69
+2006;København/1259;Bybaggrund;0.76
+2006;Odense/9159;Bybaggrund;0.72
+2006;Aalborg/8159;Bybaggrund;0.61
+2006;Århus/6159;Bybaggrund;0.67
+2006;Keldsnor/9055;Regional;0.43
+2006;Lille Valby/2090;Regional;0.92
+2006;Risø/Lille Valby;Regional;0.92
+2005;København/1257;Gade;0.72
+2005;Odense/9155;Gade;0.97
+2005;Aalborg/8151;Gade;0.70
+2005;Århus/6153;Gade;0.88
+2005;København/1259;Bybaggrund;0.64
+2005;Odense/9159;Bybaggrund;0.79
+2005;Århus/6159;Bybaggrund;0.82
+2005;Keldsnor/9055;Regional;<  0.50
+2005;Lille Valby/2090;Regional;0.97
+2005;Risø/Lille Valby;Regional;0.97
+2004;København/1257;Gade;0.53
+2004;Odense/9155;Gade;0.73
+2004;Aalborg/8151;Gade;0.46
+2004;Århus/6153;Gade;0.61
+2004;København/1259;Bybaggrund;0.53
+2004;Odense/9159;Bybaggrund;0.66
+2004;Aalborg/8159;Bybaggrund;0.59
+2004;Århus/6159;Bybaggrund;0.65
+2004;Keldsnor/9055;Regional;0.39
+2004;Lille Valby/2090;Regional;0.79
+2004;Risø/Lille Valby;Regional;0.79
+2003;København/1257;Gade;0.75
+2003;Odense/9154;Gade;0.69
+2003;Odense/9155;Gade;1.19
+2003;Aalborg/8151;Gade;0.77
+2003;Århus/6153;Gade;1.00
+2003;Aalborg/8159;Bybaggrund;0.82
+2003;Keldsnor/9055;Regional;0.68
+2003;Lille Valby/2090;Regional;1.02
+2003;Risø/Lille Valby;Regional;1.02
+2002;København/1103;Gade;0.65
+2002;København/1257;Gade;0.59
+2002;Odense/9155;Gade;0.76
+2002;Aalborg/8151;Gade;0.50
+2002;Århus/6153;Gade;0.68
+2002;København/1259;Bybaggrund;0.67
+2002;Aalborg/8159;Bybaggrund;0.64
+2002;Århus/6159;Bybaggrund;0.69
+2002;Keldsnor/9055;Regional;0.48
+2002;Lille Valby/2090;Regional;0.85
+2002;Risø/Lille Valby;Regional;0.85
+2001;København/1103;Gade;0.92
+2001;København/1257;Gade;0.77
+2001;Odense/9155;Gade;0.76
+2001;Aalborg/8151;Gade;0.70
+2001;Århus/6153;Gade;0.70
+2001;Aalborg/8159;Bybaggrund;0.86
+2001;Keldsnor/9055;Regional;-
+2001;Lille Valby/2090;Regional;0.92
+2001;Risø/Lille Valby;Regional;0.92
+2000;København/1103;Gade;<  1.20
+2000;København/1257;Gade;<  1.10
+2000;Odense/9154;Gade;0.82
+2000;Odense/9155;Gade;0.91
+2000;Lille Valby/2090;Regional;0.79
+2000;Risø/Lille Valby;Regional;0.79
+1999;København/1103;Gade;2.14
+1999;København/1257;Gade;1.31
+1999;Odense/9154;Gade;1.01
+1999;Odense/9155;Gade;1.23
+1999;Aalborg/8151;Gade;1.01
+1999;Lille Valby/2090;Regional;0.85
+1999;Risø/Lille Valby;Regional;0.85
+1998;København/1103;Gade;1.90
+1998;København/1257;Gade;1.24
+1998;Odense/9154;Gade;1.00
+1998;Odense/9155;Gade;1.24
+1998;Aalborg/8151;Gade;1.09
+1998;Lille Valby/2090;Regional;0.78
+1998;Risø/Lille Valby;Regional;0.78
+1997;København/1103;Gade;1.92
+1997;København/1257;Gade;1.23
+1997;Odense/9154;Gade;1.12
+1997;Odense/9155;Gade;1.64
+1997;Aalborg/8151;Gade;0.96
+1997;Lille Valby/2090;Regional;0.88
+1997;Risø/Lille Valby;Regional;0.88
+1996;København/1103;Gade;2.33
+1996;København/1257;Gade;2.12
+1996;Odense/9154;Gade;1.64
+1996;Odense/9155;Gade;1.99
+1996;Aalborg/8151;Gade;1.63
+1996;Lille Valby/2090;Regional;1.41
+1996;Risø/Lille Valby;Regional;1.41
+1995;København/1103;Gade;2.10
+1995;København/1257;Gade;2.27
+1995;Odense/9154;Gade;1.35
+1995;Odense/9155;Gade;1.40
+1995;Aalborg/8151;Gade;1.21
+1995;Lille Valby/2090;Regional;1.35
+1995;Risø/Lille Valby;Regional;1.35
+1994;København/1103;Gade;2.22
+1994;København/1257;Gade;2.46
+1994;Odense/9154;Gade;1.42
+1994;Odense/9155;Gade;1.74
+1994;Aalborg/8151;Gade;1.02
+1994;Lille Valby/2090;Regional;1.12
+1994;Risø/Lille Valby;Regional;1.12
+1993;København/1103;Gade;1.46
+1993;København/1257;Gade;1.20
+1993;Odense/9154;Gade;0.94
+1993;Odense/9155;Gade;1.40
+1993;Lille Valby/2090;Regional;1.72
+1993;Risø/Lille Valby;Regional;1.72
+1992;København/1103;Gade;<  0.50
+1992;Lille Valby/2090;Regional;1.60
+1992;Risø/Lille Valby;Regional;1.60
+1991;København/1103;Gade;<  0.50
+1990;København/1103;Gade;<  0.50

@@ -1,0 +1,128 @@
+Air quality monitoring: SO2;;;
+Unit: µg/m³;;;
+Year;Station;St.type;Average SO2
+2022;Copenhagen/1103;Street;1
+2022;Aalborg/8151;Street;1
+2021;Copenhagen/1103;Street;0
+2021;Aalborg/8151;Street;1
+2020;Copenhagen/1103;Street;1
+2020;Aalborg/8151;Street;1
+2019;Copenhagen/1103;Street;1
+2018;Copenhagen/1103;Street;1
+2018;Aalborg/8151;Street;0
+2017;Copenhagen/1103;Street;1
+2016;Copenhagen/1103;Street;2
+2015;Copenhagen/1103;Street;2
+2014;Copenhagen/1103;Street;2
+2014;Aalborg/8151;Street;2
+2013;Copenhagen/1103;Street;2
+2013;Aalborg/8151;Street;2
+2012;Copenhagen/1103;Street;2
+2012;Aalborg/8151;Street;2
+2011;Copenhagen/1103;Street;3
+2011;Aalborg/8151;Street;2
+2010;Copenhagen/1103;Street;5
+2010;Aalborg/8151;Street;3
+2009;Copenhagen/1103;Street;3
+2009;Aalborg/8151;Street;3
+2008;Copenhagen/1103;Street;2
+2008;Aalborg/8151;Street;3
+2007;Copenhagen/1103;Street;3
+2007;Aalborg/8151;Street;3
+2006;Copenhagen/1103;Street;2
+2006;Aalborg/8151;Street;3
+2005;Copenhagen/1103;Street;4
+2005;Aalborg/8151;Street;3
+2004;Copenhagen/1103;Street;4
+2004;Aalborg/8151;Street;3
+2003;Copenhagen/1103;Street;5
+2003;Aalborg/8151;Street;4
+2002;Copenhagen/1103;Street;4
+2002;Aalborg/8151;Street;4
+2001;Copenhagen/1103;Street;3
+2001;Aalborg/8151;Street;3
+2000;Copenhagen/1257;Street;3
+2000;Odense/9154;Street;1
+2000;Odense/9155;Street;1
+2000;Lille Valby/2090;regional;1
+2000;Risø/Lille Valby;regional;1
+1999;Copenhagen/1257;Street;4
+1999;Odense/9154;Street;2
+1999;Odense/9155;Street;2
+1999;Aalborg/8151;Street;2
+1999;Lille Valby/2090;regional;2
+1999;Risø/Lille Valby;regional;2
+1998;Copenhagen/1257;Street;4
+1998;Odense/9154;Street;2
+1998;Odense/9155;Street;2
+1998;Aalborg/8151;Street;3
+1998;Lille Valby/2090;regional;2
+1998;Risø/Lille Valby;regional;2
+1997;Copenhagen/1257;Street;5
+1997;Odense/9154;Street;3
+1997;Odense/9155;Street;3
+1997;Aalborg/8151;Street;3
+1997;Lille Valby/2090;regional;2
+1997;Risø/Lille Valby;regional;2
+1996;Copenhagen/1257;Street;7
+1996;Odense/9154;Street;5
+1996;Odense/9155;Street;5
+1996;Aalborg/8151;Street;5
+1996;Lille Valby/2090;regional;4
+1996;Risø/Lille Valby;regional;4
+1995;Copenhagen/1257;Street;9
+1995;Odense/9154;Street;4
+1995;Odense/9155;Street;4
+1995;Aalborg/8151;Street;4
+1995;Lille Valby/2090;regional;3
+1995;Risø/Lille Valby;regional;3
+1994;Copenhagen/1257;Street;9
+1994;Odense/9154;Street;4
+1994;Odense/9155;Street;4
+1994;Aalborg/8151;Street;5
+1994;Lille Valby/2090;regional;3
+1994;Risø/Lille Valby;regional;3
+1993;Copenhagen/1257;Street;12
+1993;Odense/9154;Street;6
+1993;Odense/9155;Street;7
+1993;Aalborg/8151;Street;7
+1993;Lille Valby/2090;regional;5
+1993;Risø/Lille Valby;regional;5
+1992;Copenhagen/1257;Street;14
+1992;Odense/9154;Street;7
+1992;Odense/9155;Street;7
+1992;Aalborg/8151;Street;7
+1992;Lille Valby/2090;regional;5
+1992;Risø/Lille Valby;regional;5
+1991;Copenhagen/1257;Street;18
+1991;Odense/9154;Street;10
+1991;Odense/9155;Street;11
+1991;Aalborg/8151;Street;12
+1991;Lille Valby/2090;regional;6
+1991;Risø/Lille Valby;regional;6
+1990;Copenhagen/1257;Street;19
+1990;Odense/9154;Street;10
+1990;Odense/9155;Street;9
+1990;Aalborg/8151;Street;12
+1989;Copenhagen/1257;Street;22
+1989;Odense/9154;Street;11
+1989;Odense/9155;Street;12
+1989;Aalborg/8151;Street;12
+1988;Copenhagen/1257;Street;23
+1988;Odense/9154;Street;12
+1988;Odense/9155;Street;12
+1988;Aalborg/8151;Street;14
+1987;Odense/9154;Street;12
+1987;Aalborg/8151;Street;15
+1986;Copenhagen/1103;Street;28
+1986;Odense/9154;Street;15
+1986;Aalborg/8151;Street;17
+1985;Copenhagen/1103;Street;38
+1985;Odense/9154;Street;19
+1985;Aalborg/8151;Street;22
+1984;Copenhagen/1103;Street;40
+1984;Odense/9154;Street;25
+1984;Aalborg/8151;Street;25
+1983;Copenhagen/1103;Street;37
+1983;Odense/9154;Street;24
+1983;Aalborg/8151;Street;21
