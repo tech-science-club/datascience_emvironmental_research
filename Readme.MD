@@ -23,7 +23,7 @@ Lets go through the details.
 According to the public data from Aarhus University and environment monitoring department we can state
 Danish air can be considered as clean without any limit presence of pollutants.
 
- [ Alt Text]("C:\Users\admin\PycharmProjects\datascience_emvironmental_research\contamination_air.png")
+ [ Alt Text]("https://github.com/tech-science-club/datascience_emvironmental_research/blob/7b2a5cf706c6ceba46438a8d6b252e12efc6f4e0/contamination_air.png")
 
 
 Presumably, it is because, Denmark does not have a metallurgy, chemical industry, as it might be. 
