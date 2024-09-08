@@ -1,5 +1,13 @@
 # Processing of environmental data from miljoeportal.dk with data science approach using Python with Pandas library.
 
+Here is a small implementation of datascience aproach into environmental monitoring.
+
+This Python script, utilizing the Pandas library, enables users to process datasets, extract data, and manipulate it as needed. 
+Our datasets were stored in Excel files with over 15 columns and thousands of rows. To study the environmental situation, we analyzed the datasets, 
+identified maximum values, and compared them to constants from environmental monitoring organizations.
+
+The script allows users to explore the entire dataset, print a list of detected compounds, and identify the locations where samples were collected. 
+Additionally, users can retrieve data for a specific location or compound.
 First, what needs to be highlighted here is that Danes are exemplary. We should all follow their example. 
 A great open data collection exists about environmental conditions for the past 40 years. 
 It covers everything from water chemistry to species variety. And it is accessible for everyone.
