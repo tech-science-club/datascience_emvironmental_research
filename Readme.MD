@@ -90,7 +90,7 @@ admited by WHO and other organizations
 
 ![image](https://github.com/tech-science-club/datascience_emvironmental_research/blob/99748efd903170d6726c938d1dbfcb7f82df6b2d/2-Maximum-Permissible-Concentrations-of-Heavy-Metals-in-Sewage-Sludge-mg-kg-Dry-wt-in.png)
 
-![image](https://github.com/tech-science-club/datascience_emvironmental_research/blob/99748efd903170d6726c938d1dbfcb7f82df6b2d/2-Maximum-Permissible-Concentrations-of-Heavy-Metals-in-Sewage-Sludge-mg-kg-Dry-wt-in.png)
+![image](https://github.com/tech-science-club/datascience_emvironmental_research/blob/99748efd903170d6726c938d1dbfcb7f82df6b2d/Heavy-metal-permissible-standard-limit-for-sewage-sludge-applied-on-agricultural-soils.png)
 
 
 
