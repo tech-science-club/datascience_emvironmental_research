@@ -25,7 +25,6 @@ Danish air can be considered as clean without any limit presence of pollutants.
 
  ![Alt Text](contamination_air.png)
 
-
 Presumably, it is because, Denmark does not have a metallurgy, chemical industry, as it might be. 
 Government rules and regulations impacted in positive way an agriculture, traffic regulations, building area have been 
 playing crucial role in pollutants rates declining.
@@ -76,7 +75,7 @@ By unknown reason, monitoring of upper water lay is not accessible nowadays. Las
 
  [image](contamination_Nikkel_wastewater.png)
 
-[image](contamination_Kobber_wastewater.png)
+ [image](contamination_Kobber_wastewater.png)
 
  [image](contamination_Zink_wastewater.png)
 
@@ -93,7 +92,6 @@ By unknown reason, monitoring of upper water lay is not accessible nowadays. Las
  [image](contamination_Kviksølv_wastewater.png)
 
 It is not understandable, what does Uranium, is doing in danish sump near Roskilde
-
  
 Presumably, a reason of its presence is activity of local Plant which has to do to electrochemical production. 
 Is well known, it demands of Zink, Chrome, Nikel etc salt as electrolysis components. Those electrolytes leak to the local
