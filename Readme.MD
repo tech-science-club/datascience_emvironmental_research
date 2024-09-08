@@ -1,4 +1,4 @@
-#**Processing of environmental data from miljoeportal.dk with data science approach using Python with Pandas library.**
+#Processing of environmental data from miljoeportal.dk with data science approach using Python with Pandas library.
 
 First, what needs to be highlighted here is that Danes are exemplary. We should all follow their example. 
 A great open data collection exists about environmental conditions for the past 40 years. 
