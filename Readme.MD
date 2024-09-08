@@ -74,7 +74,7 @@ Retrieved data is a little bit similar to previous above. For example
 
 data visalisation for Kalundborg harbor, which has Petroleum terminal, fertilizer storage:
 
-![image](contamination_KALUNDBORG C. I slam.png)
+![image](https://github.com/tech-science-club/datascience_emvironmental_research/blob/85401837251a3ffea882c435a8a4540f6e478452/contamination_KALUNDBORG%20C.%20I%20slam.png)
 
 and for world famous NovoNordisk pharmacy factory:
 
