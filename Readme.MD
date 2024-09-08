@@ -85,6 +85,12 @@ Novo Nordisk Pharmacy Factory:
 
 ![image](https://github.com/tech-science-club/datascience_emvironmental_research/blob/d86a0278868c684b594c0d1bd24f7e189548bcbf/contamination_Novo%20-%20till%C3%B8b.png)
 
+At the end additionally is applyed a table with limit permissible concentration of metal ions in wastewater
+admited by WHO and other organizations
+
+![image](https://github.com/tech-science-club/datascience_emvironmental_research/blob/99748efd903170d6726c938d1dbfcb7f82df6b2d/2-Maximum-Permissible-Concentrations-of-Heavy-Metals-in-Sewage-Sludge-mg-kg-Dry-wt-in.png)
+
+![image](https://github.com/tech-science-club/datascience_emvironmental_research/blob/99748efd903170d6726c938d1dbfcb7f82df6b2d/2-Maximum-Permissible-Concentrations-of-Heavy-Metals-in-Sewage-Sludge-mg-kg-Dry-wt-in.png)
 
 
 
