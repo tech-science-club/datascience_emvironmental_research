@@ -78,7 +78,7 @@ data visalisation for Kalundborg harbor, which has Petroleum terminal, fertilize
 
 and for world famous NovoNordisk pharmacy factory:
 
-![image](contamination_Novo - tilløb.png)
+![image](https://github.com/tech-science-club/datascience_emvironmental_research/blob/d86a0278868c684b594c0d1bd24f7e189548bcbf/contamination_Novo%20-%20till%C3%B8b.png)
 
 
 
