@@ -41,29 +41,30 @@ unique = data_frame['Målested navn'].unique()
 #-------------------------------------write, print out a list of plases where samples have been taken--------------------------------------
 
 
-for val in unique:
-    df_filtered = data_frame[data_frame['Målested navn'] == val]
-    separate_dataframes[val] = df_filtered
-    count += 1
+#for val in unique:
+#    df_filtered = data_frame[data_frame['Målested navn'] == val]
+#    separate_dataframes[val] = df_filtered
+#    count += 1
+
 #print("amount of places are: " + str(count))
 #print(unique)
 
 
 ##-----------------------------------print out a list of compounds and its maximum through all data set-------------------------------------
 
-unique_compounds = data_frame['Stofparameter'].unique()
-for i in unique_compounds:
-    cnt+=1
-    df_compounds_filtered = data_frame[data_frame['Stofparameter'] == i]      # if dict set is needed
-    unique_compounds_dict[i] = df_compounds_filtered                          # we may create it here and pass value
-
-    filtered_data = df.loc[df['Stofparameter'] == i].copy()
-    filtered_columns = filtered_data[['Målested navn','Stofparameter', 'Resultat-attribut', 'Resultat', 'Enhed']]
-    filtered_data['Resultat'] = filtered_data['Resultat'].str.replace(',', '.')
-    filtered_data['Resultat'] = pd.to_numeric(filtered_data['Resultat'], errors='coerce')
-    max_rfiltered = filtered_data.loc[filtered_data['Resultat'].idxmax()]
-    print(max_rfiltered[['Målested navn','Stofparameter','Resultat','Enhed']])
-    print(f"{cnt} -------------------------------------------------------------- ")
+#unique_compounds = data_frame['Stofparameter'].unique()
+#for i in unique_compounds:
+#    cnt+=1
+#    df_compounds_filtered = data_frame[data_frame['Stofparameter'] == i]      # if dict set is needed
+#    unique_compounds_dict[i] = df_compounds_filtered                          # we may create it here and pass value
+#
+#    filtered_data = df.loc[df['Stofparameter'] == i].copy()
+#    filtered_columns = filtered_data[['Målested navn','Stofparameter', 'Resultat-attribut', 'Resultat', 'Enhed']]
+#    filtered_data['Resultat'] = filtered_data['Resultat'].str.replace(',', '.')
+#    filtered_data['Resultat'] = pd.to_numeric(filtered_data['Resultat'], errors='coerce')
+#    max_rfiltered = filtered_data.loc[filtered_data['Resultat'].idxmax()]
+#    print(max_rfiltered[['Målested navn','Stofparameter','Resultat','Enhed']])
+#    print(f"{cnt} -------------------------------------------------------------- ")
 
 #print("amount of componds is: "+ str(cnt))
 #print(unique_compounds)
@@ -94,55 +95,55 @@ for i in unique_compounds:
 
 #------------------------------------- sort and split data into separated frames according to places (locations) ----------------------------------------
 
-for val, df in separate_dataframes.items():
-    print(f"\nData for {val}:")
-    frame = ['Dato', 'Målested navn', 'Stofparameter', 'Resultat-attribut', 'Resultat', 'Enhed']
-    df_2 = df[frame].copy()
-    df_2['Resultat'] = df_2['Resultat'].str.replace(',', '.')
-    df_2['Resultat'] = pd.to_numeric(df_2['Resultat'], errors='coerce')
-    df_grouped = df_2.groupby('Stofparameter').agg({'Resultat': 'mean'})
-    #print(df_grouped)
-
-    df_2 = df_2[df_2['Stofparameter'] != 'pH']
-    df_2 = df_2[df_2['Stofparameter'] != 'pH-målingstemperatur']
-    df_2 = df_2[df_2['Stofparameter'] != 'Suspenderede stoffer']
-
-    df_2.loc[(df_2['Enhed'] == 'µg/kg TS') | (df_2['Enhed'] == 'µg/kg P'), 'Resultat'] *= 0.001
-    df_2.loc[(df_2['Enhed'] == 'µg/kg') | (df_2['Enhed'] == 'µg/l') , 'Resultat'] *= 0.001
-
-    Stofparameter = df_2['Stofparameter']
-    Resultat = df_2['Resultat']
-    idx = df_2.groupby('Stofparameter')['Resultat'].idxmax()
-    df_max = df_2.loc[idx, ['Målested navn', 'Stofparameter', 'Resultat', 'Enhed']]
-
-    print(df_max)
+#for val, df in separate_dataframes.items():
+#    print(f"\nData for {val}:")
+#    frame = ['Dato', 'Målested navn', 'Stofparameter', 'Resultat-attribut', 'Resultat', 'Enhed']
+#    df_2 = df[frame].copy()
+#    df_2['Resultat'] = df_2['Resultat'].str.replace(',', '.')
+#    df_2['Resultat'] = pd.to_numeric(df_2['Resultat'], errors='coerce')
+#    df_grouped = df_2.groupby('Stofparameter').agg({'Resultat': 'mean'})
+#    #print(df_grouped)
+#
+#    df_2 = df_2[df_2['Stofparameter'] != 'pH']
+#    df_2 = df_2[df_2['Stofparameter'] != 'pH-målingstemperatur']
+#    df_2 = df_2[df_2['Stofparameter'] != 'Suspenderede stoffer']
+#
+#    df_2.loc[(df_2['Enhed'] == 'µg/kg TS') | (df_2['Enhed'] == 'µg/kg P'), 'Resultat'] *= 0.001
+#    df_2.loc[(df_2['Enhed'] == 'µg/kg') | (df_2['Enhed'] == 'µg/l') , 'Resultat'] *= 0.001
+#
+#    Stofparameter = df_2['Stofparameter']
+#    Resultat = df_2['Resultat']
+#    idx = df_2.groupby('Stofparameter')['Resultat'].idxmax()
+#    df_max = df_2.loc[idx, ['Målested navn', 'Stofparameter', 'Resultat', 'Enhed']]
+#
+#    print(df_max)
 # #----------------------------------------- save data into files according to places -------------------------------------------------------
 #
 #    #with pd.ExcelWriter(f'{val}.xlsx', engine='openpyxl') as writer:
 #    #    df.to_excel(writer, sheet_name='Sheet1', index=False)
 #    #    df_max.to_excel(writer, sheet_name='Sheet2', index=False)
 #
-#------------------------------------------------------- build plot and save it into root directory ------------------------------------------
+# #------------------------------------------------------- build plot and save it into root directory ------------------------------------------
 
-    if val == 'VISKINGE Slam':
-         plt.figure(figsize=(10, 6))
-         plots = sns.barplot(x=Stofparameter, y=Resultat, gap=0.1, hue=Stofparameter, legend=False, errorbar=None)
-         for bar in plots.patches:
-             plots.annotate(format(bar.get_height(), '.2f'),
-                            (bar.get_x() + bar.get_width() / 2,
-                             bar.get_height()), ha='center', va='center',
-                            size=6, xytext=(0, 8),
-                            textcoords='offset points')
-
-         plt.title(f"Contaminants, {val}, for August 2024")
-         plt.xlabel('Compounds')
-         plt.ylabel('Concentration, mg/kg')
-         plt.xticks(rotation=25, ha="right")
-         plt.tight_layout()
-
-         plt.savefig(f'contamination_{val}.png')
-
-         plt.show()
+#    if val == 'Bjergmarken I slam':
+#         plt.figure(figsize=(10, 6))
+#         plots = sns.barplot(x=Stofparameter, y=Resultat, gap=0.1, hue=Stofparameter, legend=False, errorbar=None)
+#         for bar in plots.patches:
+#             plots.annotate(format(bar.get_height(), '.2f'),
+#                            (bar.get_x() + bar.get_width() / 2,
+#                             bar.get_height()), ha='center', va='center',
+#                            size=6, xytext=(0, 8),
+#                            textcoords='offset points')
+#
+#         plt.title(f"Contaminants, {val}, for August 2024")
+#         plt.xlabel('Compounds')
+#         plt.ylabel('Concentration, mg/kg')
+#         plt.xticks(rotation=25, ha="right")
+#         plt.tight_layout()
+#
+#         plt.savefig(f'contamination_{val}.png')
+#
+#         plt.show()
 
 
 #                                       STEP TWO. Investigation of location with retried max data from the script above
@@ -154,71 +155,71 @@ for val, df in separate_dataframes.items():
 
 #---------------------------------------declare and open data set for Roskilde area--------------------------------------------='utf-8')
 
-#data2 = pd.read_csv("used_water_pollution_data/Renseanl_g (Spildevand)_20240906_140827_Bjergmarken.csv", sep=";", encoding='utf-8')
-#df_r = pd.DataFrame(data2)
-#
-#df_r['Dato'] = pd.to_datetime(df_r['Dato'], format='%d-%m-%Y', errors='coerce')
-#
-#df_r_sorted = df_r.sort_values(by='Dato')
-#
-#data_frame_r = df_r_sorted[['Dato', 'Målested navn', 'Stofparameter', 'Resultat-attribut', 'Resultat', 'Enhed']].copy()
-#
-#unique_ = data_frame_r['Stofparameter'].unique()
-#
-#data_frame_r['Resultat'] = data_frame_r['Resultat'].str.replace(',', '.')
-#data_frame_r['Resultat'] = pd.to_numeric(data_frame_r['Resultat'], errors='coerce')
-#data_frame_r.loc[(data_frame_r['Enhed'] == 'µg/kg TS') | (data_frame_r['Enhed'] == 'µg/kg P'), 'Resultat'] *= 0.001
-#data_frame_r.loc[(data_frame_r['Enhed'] == 'µg/kg') | (data_frame_r['Enhed'] == 'µg/l') , 'Resultat'] *= 0.001
-#
-##-------------------coment/uncoment to hide/show info in wastewater-----------------------------
-#
-#
-##data_frame_r = data_frame_r[data_frame_r['Enhed'] != 'mg/kg TS']
-##data_frame_r = data_frame_r[data_frame_r['Enhed'] != 'µg/kg TS']
-##data_frame_r = data_frame_r[data_frame_r['Enhed'] != 'mg/kg P']
-##y_title = 'mg/L'
-##atr = 'wastewater'
-#
-#
-##-------------------coment/uncoment to hide/show rates in sludge under wastewater-----------------
-#
-#data_frame_r = data_frame_r[data_frame_r['Enhed'] != 'µg/l']
-#data_frame_r = data_frame_r[data_frame_r['Enhed'] != 'µg/kg']
-#data_frame_r = data_frame_r[data_frame_r['Enhed'] != 'mg/l']
-#data_frame_r = data_frame_r[data_frame_r['Enhed'] != 'mg/kg']
-#y_title = 'mg/Kg'
-#atr = 'sludge'
-#
-#df_r_grouped = data_frame_r.groupby('Stofparameter').agg({'Resultat': 'mean'})
-#
-#elements = ['Cadmium', 'Chrom', 'Bly', 'Kviksølv', 'Arsen', 'Nikkel', 'Kobber', 'Zink', 'Uran', 'Kobolt', 'Selen']
-#
-#for i in elements:
-#    frame = data_frame_r[data_frame_r['Stofparameter'] == i][['Dato', 'Resultat', 'Enhed']]
-#    print(f"--------------{i}---------------------")
-#    print(frame)
-#
-#
-#    concentration_sorted = data_frame_r[data_frame_r['Stofparameter'] == i]#.sort_values(by='Dato')
-#    year_sorted = concentration_sorted['Dato']
-#    concentration_sorted_values = concentration_sorted['Resultat']
-#    #-------------------------- plotting for each i value --------------------------------------------
-#    plt.figure(figsize=(10, 6))
-#    plots = sns.barplot(x=year_sorted, y=concentration_sorted_values, hue=year_sorted, errorbar=None)
-#    # Annotate bars with values
-#    for bar in plots.patches:
-#        plots.annotate(format(bar.get_height(), '.4f'),
-#                       (bar.get_x() + bar.get_width() / 2,
-#                        bar.get_height()), ha='center', va='center',
-#                       size=5, xytext=(0, 8),
-#                       textcoords='offset points')
-#
-#
-#    plt.xlabel('Date')
-#    plt.ylabel(f'Concentration {y_title}')
-#    plt.xticks(rotation=75, ha="right")
-#    plt.title(f"Contaminants, {i}, for Roskilde 1990 - now, {atr}")
-#    plt.tight_layout()
-#
-#    # Show plot
-#    plt.show()
+data2 = pd.read_csv("used_water_pollution_data/Renseanl_g (Spildevand)_20240906_140827_Bjergmarken.csv", sep=";", encoding='utf-8')
+df_r = pd.DataFrame(data2)
+
+df_r['Dato'] = pd.to_datetime(df_r['Dato'], format='%d-%m-%Y', errors='coerce')
+
+df_r_sorted = df_r.sort_values(by='Dato')
+
+data_frame_r = df_r_sorted[['Dato', 'Målested navn', 'Stofparameter', 'Resultat-attribut', 'Resultat', 'Enhed']].copy()
+
+unique_ = data_frame_r['Stofparameter'].unique()
+
+data_frame_r['Resultat'] = data_frame_r['Resultat'].str.replace(',', '.')
+data_frame_r['Resultat'] = pd.to_numeric(data_frame_r['Resultat'], errors='coerce')
+data_frame_r.loc[(data_frame_r['Enhed'] == 'µg/kg TS') | (data_frame_r['Enhed'] == 'µg/kg P'), 'Resultat'] *= 0.001
+data_frame_r.loc[(data_frame_r['Enhed'] == 'µg/kg') | (data_frame_r['Enhed'] == 'µg/l') , 'Resultat'] *= 0.001
+
+#-------------------coment/uncoment to hide/show info in wastewater-----------------------------
+
+
+#data_frame_r = data_frame_r[data_frame_r['Enhed'] != 'mg/kg TS']
+#data_frame_r = data_frame_r[data_frame_r['Enhed'] != 'µg/kg TS']
+#data_frame_r = data_frame_r[data_frame_r['Enhed'] != 'mg/kg P']
+#y_title = 'mg/L'
+#atr = 'wastewater'
+
+
+#-------------------coment/uncoment to hide/show rates in sludge under wastewater-----------------
+
+data_frame_r = data_frame_r[data_frame_r['Enhed'] != 'µg/l']
+data_frame_r = data_frame_r[data_frame_r['Enhed'] != 'µg/kg']
+data_frame_r = data_frame_r[data_frame_r['Enhed'] != 'mg/l']
+data_frame_r = data_frame_r[data_frame_r['Enhed'] != 'mg/kg']
+y_title = 'mg/Kg'
+atr = 'sludge'
+
+df_r_grouped = data_frame_r.groupby('Stofparameter').agg({'Resultat': 'mean'})
+
+elements = ['Cadmium', 'Chrom', 'Bly', 'Kviksølv', 'Arsen', 'Nikkel', 'Kobber', 'Zink', 'Uran', 'Kobolt', 'Selen']
+
+for i in elements:
+    frame = data_frame_r[data_frame_r['Stofparameter'] == i][['Dato', 'Resultat', 'Enhed']]
+    print(f"--------------{i}---------------------")
+    print(frame)
+
+
+    concentration_sorted = data_frame_r[data_frame_r['Stofparameter'] == i]#.sort_values(by='Dato')
+    year_sorted = concentration_sorted['Dato']
+    concentration_sorted_values = concentration_sorted['Resultat']
+    #-------------------------- plotting for each i value --------------------------------------------
+    plt.figure(figsize=(10, 6))
+    plots = sns.barplot(x=year_sorted, y=concentration_sorted_values, hue=year_sorted, errorbar=None)
+    # Annotate bars with values
+    for bar in plots.patches:
+        plots.annotate(format(bar.get_height(), '.4f'),
+                       (bar.get_x() + bar.get_width() / 2,
+                        bar.get_height()), ha='center', va='center',
+                       size=5, xytext=(0, 8),
+                       textcoords='offset points')
+
+
+    plt.xlabel('Date')
+    plt.ylabel(f'Concentration {y_title}')
+    plt.xticks(rotation=75, ha="right")
+    plt.title(f"Contaminants, {i}, for Roskilde 1990 - now, {atr}")
+    plt.tight_layout()
+    plt.savefig(f'contamination_{i}.png')
+    # Show plot
+    plt.show()

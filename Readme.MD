@@ -23,7 +23,7 @@ Lets go through the details.
 According to the public data from Aarhus University and environment monitoring department we can state
 Danish air can be considered as clean without any limit presence of pollutants.
 
- [ Alt Text]("C:\Users\admin\PycharmProjects\datascience_emvironmental_research\contamination_air.png")
+ ![Alt Text](contamination_air.png)
 
 
 Presumably, it is because, Denmark does not have a metallurgy, chemical industry, as it might be. 
@@ -36,26 +36,71 @@ and only for 5 areas in Denmark.
 
 3. Wastewater
 
-Here is much larger variety of data. Unpleasant surprise was a fact Denmark has those same problem as everywhere world 
+Here is much larger variety of data. Unpleasant surprise was a fact, that Denmark has those same problem as everywhere world 
 around - human activity. 
-Heavy metal pollutants, organic compounds were found in sludge of slumps and in water samples. Interesting fact is remained
-nowadays data about heavy metal presence in wastewater is nat available.
-Here was implemented some strategy of investigation. As was a couple of thousands of rows in Excel file, was decided 
-to print out a max value of each contaminant, its location and look through it. 
-Paying attention to the highest value might be embedded possibilities to withdraw information about certain location, that 
-was done. 
-The retrieved data can be saved into separate Excel file, is being saved as png file with plot of pollutants.
+Heavy metal pollutants, organic compounds were found in sludge of slumps and in water samples. Interesting fact is remained,
+nowadays data about heavy metal presence in wastewater is not available.
+
+Thus, here was implemented some strategy of investigation. As there was a couple of thousands of rows in Excel file for 
+August 2024, was decided to print out a max value of each contaminant, its location area and to look through it. 
+
+![image](Roskilde_sump_station(2).png)
+![image](Roskilde_sump_station(1).png)
+
 Then, going further seeing in details about some interesting location we can obtain historical data for it.
-Here has been noticed a fact, Roskilde slump had a presence of a big variety of harmful metals in it. Was decided to retrieve 
-a historical data of it for the last 40 years from the portal and visualize it in plot view.
+Here has been noticed a fact, Roskilde slump had a presence of a big variety of harmful metals there. 
+Hg, Zn, Pb, As, Cd, Ni, Co, U, Cu
 
+![image](contamination_Bjergmarken I slam.png)
 
+Was decided to retrieve a historical data of it for the last 40 years from the portal and visualize it in plot view for 
+dangerous metal ions which were detected in sludge on the bottom. As it is visible, it still remains on that same level  
 
+![image](contamination_Cadmium.png)
+ 
+ [image](contamination_Chrome.png)
 
+ [image](contamination_Pb.png)
+ 
+ [image](contamination_Hg.png)
+
+ [image](contamination_Nikkel.png)
+
+ [image](contamination_Kobber.png)
+ 
+ [image](contamination_Zink.png)
+
+By unknown reason, monitoring of upper water lay is not accessible nowadays. Last measured data are from 2009 year.
+
+![image](contamination_Arsen_wastewater.png)
+
+ [image](contamination_Nikkel_wastewater.png)
+
+[image](contamination_Kobber_wastewater.png)
+
+ [image](contamination_Zink_wastewater.png)
+
+ [image](contamination_Uran_wastewater.png)
+
+ [image](contamination_Kobolt_wastewater.png)
+
+ [image](contamination_Selen_wastewater.png)
+
+ [image](contamination_Chrom_wastewater.png)
+
+ [image](contamination_Bly_wastewater.png)
+
+ [image](contamination_Kviksølv_wastewater.png)
+
+It is not understandable, what does Uranium, is doing in danish sump near Roskilde
+
+ 
 Presumably, a reason of its presence is activity of local Plant which has to do to electrochemical production. 
 Is well known, it demands of Zink, Chrome, Nikel etc salt as electrolysis components. Those electrolytes leak to the local
 wastewater and then to the global city ones. 
 Have been expected leading a such environmentally responsible productions has to be followed rules and norms. 
 However data results show another history.
+
+
 
 
