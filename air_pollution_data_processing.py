@@ -55,6 +55,7 @@ for file in files_to_merge:
     else:
         n = 0
         cnt += 1
+
 plt.xticks(rotation=45, ha="right")
 plt.tight_layout()
 fig.suptitle("Air Pollutants, Denmark", fontsize=20)

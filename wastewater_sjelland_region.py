@@ -7,6 +7,8 @@
 
 import io
 import os
+from scipy.interpolate import make_interp_spline
+import numpy as np
 import pandas as pd
 import seaborn as sns
 import seaborn as sns
@@ -194,32 +196,76 @@ df_r_grouped = data_frame_r.groupby('Stofparameter').agg({'Resultat': 'mean'})
 
 elements = ['Cadmium', 'Chrom', 'Bly', 'Kviksølv', 'Arsen', 'Nikkel', 'Kobber', 'Zink', 'Uran', 'Kobolt', 'Selen']
 
+#----------------------ordinary ploting of each plot------------------------------------
+#for i in elements:
+#    frame = data_frame_r[data_frame_r['Stofparameter'] == i][['Dato', 'Resultat', 'Enhed']]
+#    print(f"--------------{i}---------------------")
+#    print(frame)
+#
+#
+#    concentration_sorted = data_frame_r[data_frame_r['Stofparameter'] == i]#.sort_values(by='Dato')
+#    year_sorted = concentration_sorted['Dato']
+#    concentration_sorted_values = concentration_sorted['Resultat']
+#    #-------------------------- plotting for each i value --------------------------------------------
+#    plt.figure(figsize=(10, 6))
+#    plots = sns.barplot(x=year_sorted, y=concentration_sorted_values, hue=year_sorted, errorbar=None)
+#    # Annotate bars with values
+#    for bar in plots.patches:
+#        plots.annotate(format(bar.get_height(), '.4f'),
+#                       (bar.get_x() + bar.get_width() / 2,
+#                        bar.get_height()), ha='center', va='center',
+#                        size=5, xytext=(0, 8),
+#                        textcoords='offset points')
+#
+#
+#    plt.xlabel('Date')
+#    plt.ylabel(f'Concentration {y_title}')
+#    plt.xticks(rotation=75, ha="right")
+#    plt.title(f"Contaminants, {i}, for Roskilde 1990 - now, {atr}")
+#    plt.tight_layout()
+#    plt.savefig(f'contamination_{i}.png')
+#    # Show plot
+#    plt.show()
+#---------------------------------------------save plots as sublots grid---------------------------------------------
+
+cnt = 0
+n = 0
+fig, axes = plt.subplots(6, 2, figsize=(15, 18))
 for i in elements:
     frame = data_frame_r[data_frame_r['Stofparameter'] == i][['Dato', 'Resultat', 'Enhed']]
-    print(f"--------------{i}---------------------")
+    print(f"-----------------{i}---------------------")
     print(frame)
-
-
     concentration_sorted = data_frame_r[data_frame_r['Stofparameter'] == i]#.sort_values(by='Dato')
-    year_sorted = concentration_sorted['Dato']
+    year_sorted = concentration_sorted['Dato'].dt.strftime('%Y-%m') #.dt.year
     concentration_sorted_values = concentration_sorted['Resultat']
+
     #-------------------------- plotting for each i value --------------------------------------------
-    plt.figure(figsize=(10, 6))
-    plots = sns.barplot(x=year_sorted, y=concentration_sorted_values, hue=year_sorted, errorbar=None)
-    # Annotate bars with values
+
+    ax = axes[cnt, n]
+    # to depict in line plot, uncomment bellow
+    #sns.lineplot(x=year_sorted, y=concentration_sorted_values, ax=ax, legend=False, errorbar=None )
+    plots = sns.barplot(x=year_sorted, y=concentration_sorted_values, ax=ax, hue=year_sorted, errorbar=None)
+
     for bar in plots.patches:
-        plots.annotate(format(bar.get_height(), '.4f'),
+        ax.annotate(format(bar.get_height(), '.2f'),
                        (bar.get_x() + bar.get_width() / 2,
                         bar.get_height()), ha='center', va='center',
-                       size=5, xytext=(0, 8),
-                       textcoords='offset points')
+                        size=5, xytext=(0,2),
+                        textcoords='offset points')
 
+    if n % 2 == 0:
+        n += 1
+    else:
+        n = 0
+        cnt += 1
 
-    plt.xlabel('Date')
-    plt.ylabel(f'Concentration {y_title}')
-    plt.xticks(rotation=75, ha="right")
-    plt.title(f"Contaminants, {i}, for Roskilde 1990 - now, {atr}")
-    plt.tight_layout()
-    plt.savefig(f'contamination_{i}.png')
-    # Show plot
-    plt.show()
+    ax.set_title(f"{i}", fontsize=10)
+    ax.set_xlabel("  ")
+    ax.set_ylabel(f'Concentration {y_title}', fontsize=5)
+    ax.tick_params(axis='x', rotation=65, labelsize=4)
+
+plt.tight_layout()
+plt.suptitle(f"Contaminants, Roskilde from 1990 to nowadays, {atr}", fontsize=20)
+plt.subplots_adjust(top=0.92, wspace=0.15, hspace=0.5)
+plt.savefig(f"Contaminants, Roskilde from 1990 to nowadays, {atr}.png")
+plt.show()

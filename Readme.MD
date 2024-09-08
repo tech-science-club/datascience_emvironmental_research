@@ -55,41 +55,14 @@ Hg, Zn, Pb, As, Cd, Ni, Co, U, Cu
 Was decided to retrieve a historical data of it for the last 40 years from the portal and visualize it in plot view for 
 dangerous metal ions which were detected in sludge on the bottom. As it is visible, it still remains on that same level  
 
-![image](contamination_Cadmium.png)
- 
- [image](contamination_Chrome.png)
+![image](Contaminants_Roskilde_from_1990_to_nowadays_sludge.png)
 
- [image](contamination_Pb.png)
- 
- [image](contamination_Hg.png)
-
- [image](contamination_Nikkel.png)
-
- [image](contamination_Kobber.png)
- 
- [image](contamination_Zink.png)
 
 By unknown reason, monitoring of upper water lay is not accessible nowadays. Last measured data are from 2009 year.
 
-![image](contamination_Arsen_wastewater.png)
+![image](Contaminants_Roskild_from_1990_to_nowadays_wastewater.png)
 
- [image](contamination_Nikkel_wastewater.png)
-
- [image](contamination_Kobber_wastewater.png)
-
- [image](contamination_Zink_wastewater.png)
-
- [image](contamination_Uran_wastewater.png)
-
- [image](contamination_Kobolt_wastewater.png)
-
- [image](contamination_Selen_wastewater.png)
-
- [image](contamination_Chrom_wastewater.png)
-
- [image](contamination_Bly_wastewater.png)
-
- [image](contamination_Kviksølv_wastewater.png)
+ 
 
 It is not understandable, what does Uranium, is doing in danish sump near Roskilde
  
