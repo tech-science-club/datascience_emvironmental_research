@@ -57,20 +57,29 @@ dangerous metal ions which were detected in sludge on the bottom. As it is visib
 
 ![image](Contaminants_Roskilde_from_1990_to_nowadays_sludge.png)
 
-
 By unknown reason, monitoring of upper water lay is not accessible nowadays. Last measured data are from 2009 year.
 
 ![image](Contaminants_Roskild_from_1990_to_nowadays_wastewater.png)
 
- 
-
-It is not understandable, what does Uranium, is doing in danish sump near Roskilde
+It is not understandable, what does Uranium, is doing in danish sump near Roskilde.
  
 Presumably, a reason of its presence is activity of local Plant which has to do to electrochemical production. 
 Is well known, it demands of Zink, Chrome, Nikel etc salt as electrolysis components. Those electrolytes leak to the local
 wastewater and then to the global city ones. 
 Have been expected leading a such environmentally responsible productions has to be followed rules and norms. 
 However data results show another history.
+
+For other facilities was applyed that same approach.
+Retrieved data is a little bit similar to previous above. For example
+
+data visalisation for Kalundborg harbor, which has Petroleum terminal, fertilizer storage:
+
+![image](contamination_KALUNDBORG C. I slam.png)
+
+and for world famous NovoNordisk pharmacy factory:
+
+![image](contamination_Novo - tilløb.png)
+
 
 
 
