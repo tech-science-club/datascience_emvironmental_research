@@ -1,5 +1,13 @@
-#**Processing of environmental data from miljoeportal.dk with data science approach using Python with Pandas library.**
+# Processing of environmental data from miljoeportal.dk with data science approach using Python with Pandas library.
 
+Here is a small implementation of datascience aproach into environmental monitoring.
+
+This Python script, utilizing the Pandas library, enables users to process datasets, extract data, and manipulate it as needed. 
+Our datasets were stored in Excel files with over 15 columns and thousands of rows. To study the environmental situation, we analyzed the datasets, 
+identified maximum values, and compared them to constants from environmental monitoring organizations.
+
+The script allows users to explore the entire dataset, print a list of detected compounds, and identify the locations where samples were collected. 
+Additionally, users can retrieve data for a specific location or compound.
 First, what needs to be highlighted here is that Danes are exemplary. We should all follow their example. 
 A great open data collection exists about environmental conditions for the past 40 years. 
 It covers everything from water chemistry to species variety. And it is accessible for everyone.
@@ -23,6 +31,14 @@ Finally, you can visualize the data graphically using plots.
 
 Lets go through the details.
 
+This Python script, utilizing the Pandas library, enables users to process datasets, extract data, and manipulate it as needed. 
+Our datasets were stored in Excel files with over 15 columns and thousands of rows. To study the environmental situation, 
+we analyzed the datasets, identified maximum values, and compared them to constants from environmental monitoring organizations.
+
+The script allows users to explore the entire dataset, print a list of detected compounds, 
+and identify the locations where samples were collected. Additionally, users can retrieve data for a specific location or compound.
+
+
 Danish Air Quality
 
 Based on public data from Aarhus University and the environmental monitoring department, 
@@ -38,6 +54,9 @@ Underground Water
 
 The available data on underground water is limited. Excel files only contain 30 lines of data for the past month, 
 covering a few minerals and only five regions in Denmark. Data likely is in accesible scopes
+
+![image](https://github.com/tech-science-club/datascience_emvironmental_research/blob/68c661a475fe835238bddea75c882b686247b877/underground_water.png)
+
 
 Wastewater
 
@@ -85,6 +104,12 @@ Novo Nordisk Pharmacy Factory:
 
 ![image](https://github.com/tech-science-club/datascience_emvironmental_research/blob/d86a0278868c684b594c0d1bd24f7e189548bcbf/contamination_Novo%20-%20till%C3%B8b.png)
 
+At the end additionally is applyed a table with limit permissible concentration of metal ions in wastewater
+admited by WHO and other organizations
+
+![image](https://github.com/tech-science-club/datascience_emvironmental_research/blob/99748efd903170d6726c938d1dbfcb7f82df6b2d/2-Maximum-Permissible-Concentrations-of-Heavy-Metals-in-Sewage-Sludge-mg-kg-Dry-wt-in.png)
+
+![image](https://github.com/tech-science-club/datascience_emvironmental_research/blob/99748efd903170d6726c938d1dbfcb7f82df6b2d/Heavy-metal-permissible-standard-limit-for-sewage-sludge-applied-on-agricultural-soils.png)
 
 
 
