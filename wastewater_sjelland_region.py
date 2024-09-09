@@ -70,10 +70,10 @@ unique = data_frame['Målested navn'].unique()
 
 #print("amount of componds is: "+ str(cnt))
 #print(unique_compounds)
-#
+
 #-------------------------------------------------------list of measured compound names in dataset -------------------------------------------------------
 
-# Temperatur' 'Suspenderede stoffer' 'Kemisk iltforbrug' 'Ammoniak+ammonium-N' 'Perfluornonansulfonsyre (sum forgrenet og lineær)' 'Nitrogen, total N' 'Bundfald eft. 2 tim.'
+# Temperatur' 'Suspenderede stoffer', 'Kemisk iltforbrug''Ammoniak+ammonium-N' 'Perfluornonansulfonsyre (sum forgrenet og lineær)' 'Nitrogen, total N' 'Bundfald eft. 2 tim.'
 # 'Perfluornonansyre (sum forgrenet og lineær)' 'Perfluordecansulfonsyre (sum forgrenet og lineær)' 'Bly' 'Perfluorundecansulfonsyre (sum forgrenet og lineær)'
 # 'Perfluoroctansyre (sum forgrenet og lineær)' 'Nikkel' '6:2 Fluortelomersulfonsyre (sum forgrenet og lineær)' 'Perfluorheptansyre (sum forgrenet og lineær)'
 # 'Perfluorpentansyre (sum forgrenet og lineær)' 'Sum af PFAS, 22 stoffer' 'Cadmium' 'pH' 'pH-målingstemperatur' 'Perfluorundecansyre (sum forgrenet og lineær)' 'Glødetab, total'
@@ -93,7 +93,7 @@ unique = data_frame['Målested navn'].unique()
 # 'Bisphenol A' 'Perfluortetradecansyre (sum forgrenet og lineær)' 'Vanadium' 'Selen' 'Kobolt' '1H,1H,2H,2H-Perfluordecanol (sum forgrenet og lineær)' 'Chrom, hexavalent' 'Perfluorhexadecansyre (sum forgrenet og lineær)'
 # 'Konduktivitet' 'Bor' 'Monobutyltin' 'Anioniske detergenter' 'Perfluor([5-methoxy-1,3-dioxolan-4-yl]oxy)eddikesyre' 'HFPO-DA (GenX)' 'Kjeldahl-N' 'Dodecafluor-3H-4,8-dioxanonanoat (sum forgrenet og lineær)'
 # 'Perfluoroctadecansyre (sum forgrenet og lineær)' 'Chrom, trivalent' 'Nitrat' 'Nitrit' 'Orthophosphat-P'
-#
+
 
 #------------------------------------- sort and split data into separated frames according to places (locations) ----------------------------------------
 
@@ -197,6 +197,7 @@ df_r_grouped = data_frame_r.groupby('Stofparameter').agg({'Resultat': 'mean'})
 elements = ['Cadmium', 'Chrom', 'Bly', 'Kviksølv', 'Arsen', 'Nikkel', 'Kobber', 'Zink', 'Uran', 'Kobolt', 'Selen']
 
 #----------------------ordinary ploting of each plot------------------------------------
+
 #for i in elements:
 #    frame = data_frame_r[data_frame_r['Stofparameter'] == i][['Dato', 'Resultat', 'Enhed']]
 #    print(f"--------------{i}---------------------")
@@ -226,6 +227,7 @@ elements = ['Cadmium', 'Chrom', 'Bly', 'Kviksølv', 'Arsen', 'Nikkel', 'Kobber',
 #    plt.savefig(f'contamination_{i}.png')
 #    # Show plot
 #    plt.show()
+
 #---------------------------------------------save plots as sublots grid---------------------------------------------
 
 cnt = 0
